@@ -3,9 +3,19 @@
   <head>
     <style>
       header {
-        background-color: rgb(172, 212, 237);
-        height: 50vh;
-        padding-top: 3%;
+        background-color: #466991;
+        height: 10%;
+
+        position: relative;
+      }
+      .banner {
+        background-image: url(assets/ABCbanner.jpg);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        background-color: #466991;
+        display: flex;
       }
     </style>
     <meta charset="utf-8" />
@@ -89,12 +99,10 @@
     <!-- Header-->
     <!--bg-dark py-5-->
     <header>
-      <div class="container px-4 px-lg-5 my-5">
+      <div class="container px-4 px-lg-5 my-5"> 
+        <!-- remove the about div and change the below to banner-area class if about page style is preferred -->
         <div class="text-center text-white">
-          <h1 class="display-4 fw-bolder">A Better Camera Store</h1>
-          <p class="lead fw-normal text-white-50 mb-0">
-            A Better Camera Store Company
-          </p>
+          <img class="banner" src="./assets/ABCbanner.jpg" />
         </div>
       </div>
     </header>
