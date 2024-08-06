@@ -5,6 +5,12 @@
       header {
         background-color: #466991;
       }
+      .row {
+        display: flex;
+      }
+      .column {
+        flex: 50%;
+      }
     </style>
     <meta charset="utf-8" />
     <meta
@@ -28,7 +34,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="index.html">ABC Store</a>
+        <a class="navbar-brand" href="index.html">A Better Camera Store</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -85,6 +91,7 @@
     </nav>
     <!-- Header-->
     <!--bg-dark py-5-->
+
     <header>
       <div class="container px-4 px-lg-5 my-5">
         <div class="text-center text-white">
@@ -93,6 +100,7 @@
         </div>
       </div>
     </header>
+
     <!-- Section-->
     <section class="py-5">
       <div class="container px-4 px-lg-5 mt-5">
@@ -154,7 +162,7 @@
                             ":hover": {
                               "background-color": "#4e78a4",
                             },
-                            "background-color": "#5785b6",
+                            "background-color": "#466991",
                             ":focus": {
                               "background-color": "#4e78a4",
                             },
@@ -198,7 +206,7 @@
                             ":hover": {
                               "background-color": "#4e78a4",
                             },
-                            "background-color": "#5785b6",
+                            "background-color": "#466991",
                             ":focus": {
                               "background-color": "#4e78a4",
                             },
@@ -215,7 +223,7 @@
                             ":hover": {
                               "background-color": "#4e78a4",
                             },
-                            "background-color": "#5785b6",
+                            "background-color": "#466991",
                             ":focus": {
                               "background-color": "#4e78a4",
                             },
@@ -229,7 +237,7 @@
                       toggle: {
                         styles: {
                           toggle: {
-                            "background-color": "#5785b6",
+                            "background-color": "#466991",
                             ":hover": {
                               "background-color": "#4e78a4",
                             },
@@ -252,9 +260,28 @@
     <!-- Footer-->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">
-          Contact us!&nbsp; email: jasper@abettercamerastore.com &nbsp; phone:
-        </p>
+        <div class="row">
+          <div class="column">
+            <p class="m-0 text-center text-white">
+              Contact us! <br />&nbsp; email: jasper@abettercamerastore.com
+              <br />&nbsp; phone: +1 435-200-5812
+            </p>
+          </div>
+          <div class="column">
+            <p class="m-0 text-center text-white">
+              Follow us on social media! <br />
+              Instagram
+              <a href="https://www.instagram.com/abettercamerastore/"
+                >@abettercamerastore
+              </a>
+              <br />
+              Facebook
+              <a href="https://www.facebook.com/profile.php?id=61560405635815"
+                >@abettercamerastore</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- Bootstrap core JS-->

@@ -98,7 +98,6 @@
   }
 }
 
-
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -276,7 +275,8 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #466991;
+  /* color: var(--bs-link-color); */
   text-decoration: underline;
 }
 a:hover {
