@@ -11,6 +11,12 @@
       .column {
         flex: 50%;
       }
+      .sub-menu {
+        display: none;
+      }
+      li:hover .sub-menu {
+        display: block;
+      }
     </style>
     <meta charset="utf-8" />
     <meta
@@ -72,7 +78,7 @@
 
                 <li>
                   <a class="dropdown-item" href="film.html">Buy Film</a>
-                  <ul>
+                  <ul class="sub-menu">
                     <li>
                       <a class="dropdown-item" href="colorfilm.html"
                         >Color Film</a
